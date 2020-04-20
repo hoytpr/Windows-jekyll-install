@@ -22,7 +22,7 @@ software onto Windows10. It has not been tested on other Windows versions)
 ### INSTALL Ruby for Windows:
 
 1.	Download and Install Git for Windows which installs the GitBash Terminal: [https://gitforwindows.org/](https://gitforwindows.org/)
-	- After installing Git (if already installed, make sure it is upgraded to latest version) use Git to connected to github to download spreadsheet-ecology-lesson from Data Carpentry site.
+	- After installing Git (if already installed, make sure it is upgraded to latest version) use Git to connected to github to download a repository, e.g. spreadsheet-ecology-lesson from Data Carpentry site.
 	- Update to latest version using `git update`, then close the Git terminal window.
 2.	Downloaded the Ruby for Windows installer rubyinstaller-devkit-2.6.6-1-x64.exe from  [https://rubyinstaller.org/](https://rubyinstaller.org/)
 	- Run the RubyInstaller (**Run as Administrator**: right-click on installer and select "Run as Administrator") 
