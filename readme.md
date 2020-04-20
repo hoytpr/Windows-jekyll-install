@@ -47,11 +47,13 @@ NOTE: More information on this site: [https://www.rubydoc.info/github/rubygems/r
 Check that Installing Ruby via Windows `cmd.exe` extended Ruby functions and availability to GitBash!
 
 #### Close Windows Command terminal and open Gitbash terminal:
+
+Check that ruby was installed correctly:
 ```
 MINGW64 ~$ ruby --version`
 ruby 2.6.6p146 (2020-03-31 revision 67876) [x64-mingw32]
 ```	
-Check that gems are working from GitBash
+Check that gems are working from GitBash:
 ```
 MINGW64 ~$ gem --version
 3.0.3
@@ -64,7 +66,7 @@ MINGW64 ~$ gem --version
 C:\WINDOWS\system32>gem --version
 3.0.3
 ```
-#### Update your RubyGems from inside the Windows `cmd.exe` Run as Administrator. This will also install `bundler`!!
+#### Update your RubyGems from inside the Windows `cmd.exe` Run as Administrator. This will also install `bundler`!
 ```
 C:\WINDOWS\system32>gem update --system
 ```
@@ -106,9 +108,9 @@ RubyGems system software updated
 
 C:\WINDOWS\system32>
 ```
-### Now Install Jekyll under the Winodows cmd.exe terminal window (no need to exit your currently running terminal) 
+### Now Install Jekyll under the Windows `cmd.exe` terminal window (no need to exit your currently running terminal) 
 ```
-gem install Jekyll`
+gem install Jekyll
 ```
 ```
 (snip...Lots of fetching then installing…)
@@ -172,5 +174,5 @@ Configuration file: C:/Users/Pete/git/spreadsheet-ecology-lesson/_config.yml
 
 ***The use of gitignore to hide the jekyll-cache folder is under review as a PR.***
 
-Use a message such as “fix for Jekyll-cache” AND use a different branch if you have suggestions.
+
 
