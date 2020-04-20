@@ -11,9 +11,9 @@ you must install the software described below.
 (Note: This is my own experience with installing these
 software onto Windows10. It has not been tested on other Windows versions)
 
-### All installations are done from a Windows `cmd.exe` terminal window run as an Administrator
+### All installations are done as an Administrator from a Windows `cmd.exe` terminal window or otherwise run as an Administrator
 
-1.	**Ruby**. This is included with Linux and macOS; the simplest option on Windows is to use RubyInstaller. You can test your installation by running `ruby --version`. For more information, see the Ruby installation guidelines.
+1.	**Ruby**. This is included with Linux and macOS; the simplest option on Windows is to use RubyInstaller (run as an Administrator). You can test your installation by running `ruby --version`. For more information, see the Ruby installation guidelines.
 2.	**RubyGems**. (the package manager for Ruby). You can test your installation by running `gem --version`.
 3.  **Gems install bundler** Update your gems to install bundler by running `gem update --system`
 3.	**Jekyll**. You can install this by running `gem install jekyll`.
@@ -38,8 +38,8 @@ ruby 2.6.6p146 (2020-03-31 revision 67876) [x64-mingw32]
 ``` 
 #### RubyGems should now be installed
 
-	- Ruby install is now in the Windows10 Environment Variables and the PATH
-	- RubyGems (the package manager for Ruby) v3.0.3 should already installed in your Ruby environment
+	- The Ruby install is now in the Windows10 Environment Variables and the PATH
+	- RubyGems (the package manager for Ruby) v3.0.3 should already be installed in your Ruby environment
 	- Check by running `gem –version` in your cmd.exe terminal window.
 	
 NOTE: More information on this site: [https://www.rubydoc.info/github/rubygems/rubygems](https:/www.rubydoc.info/github/rubygems/rubygems)
