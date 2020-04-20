@@ -2,7 +2,8 @@
 ---
 Go to [readme.md](./readme)
 
-Good data organization is the foundation of any research project. Most 
-researchers have data in spreadsheets, so it's the place that many research
-projects start. 
+The "readme.md" file has the draft information on installing Ruby, then gems, then bundler, then Jekyll on a Windows 10 computer.
+
+Draft posted 2020-04-20
+ 
 
