@@ -152,7 +152,7 @@ $ pwd
 #### Render Pages locally: 
 ```
 MINGW64 ~/git/spreadsheet-ecology-lesson (gh-pages)
-$ jekyll serve
+$ make serve   <== or use bundle exec jekyll serve
 Configuration file: C:/Users/Pete/git/spreadsheet-ecology-lesson/_config.yml
             Source: C:/Users/Pete/git/spreadsheet-ecology-lesson
        Destination: C:/Users/Pete/git/spreadsheet-ecology-lesson/_site
