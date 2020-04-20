@@ -170,9 +170,10 @@ Configuration file: C:/Users/Pete/git/spreadsheet-ecology-lesson/_config.yml
 ***NOTE: a  “.jekyll-cache” folder may appear which MUST be IGNORED***
 
 1.	Add this folder to .gitignore 
-2.	Add this folder to “exclude” in the _config.yml file
+Note from @fmichonneau :
+Also note that the .jekyll-cache folder gets created by Jekyll 4 (that GitHub Pages doesn't support yet). 
+So it's best to use the Make command `make serve` to preview the site locally if you can or at least `bundle exec jekyll serve`.
 
-***The use of gitignore to hide the jekyll-cache folder is under review as a PR.***
 
 
 
