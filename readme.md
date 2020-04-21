@@ -175,6 +175,9 @@ Note from @fmichonneau :
 Also note that the .jekyll-cache folder gets created by Jekyll 4 (that GitHub Pages doesn't support yet). 
 So it's best to use the Make command `make serve` to preview the site locally if you can or at least `bundle exec jekyll serve`.
 
+Also note that a non-carpentry-style "plain" repository with no `.bundle` directory must be rendered locally using `jekyll serve`
+because `make serve` and `bundle exec jekyll serve` do not work. 
+
 
 
 
