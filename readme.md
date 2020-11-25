@@ -131,6 +131,8 @@ Done installing documentation for public_suffix, addressable, colorator, http_pa
 26 gems installed
 C:\WINDOWS\system32> 
 ```
+Mine loked like [this](end-of-jekyll.png) 
+
 ### Close Windows command terminal.
 #### Open Gitbash Window
 
